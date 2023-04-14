@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Events</title>
+	<script>
+		function fun1() {
+			document.getElementById('demo').style.background = "red";
+			//document.write("Hello");
+			var x = document.getElementById('name');
+			document.getElementById("demo").innerHTML = " Most Welcome " + x.value;
+		}
+		function fun2() {
+			document.getElementById("demo").innerHTML = " Name = ?"
+		}
+	</script>
+</head>
+<body>
+	<p id="demo"></p>
+	<input type="text" value="" id="name" onblur="fun1()" onfocus="fun2()">
+	<input type="button" name="Submit" value="Submit">
+</body>
+</html>

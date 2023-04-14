@@ -1,0 +1,60 @@
+/*body{
+	background-image: url(Anki.jpeg);
+	background-repeat: no-repeat;
+	//background-size: 50% 100%;
+	background-position: center;
+	background-attachment: ;
+}*/
+p {
+	font-family: calibri;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: green;
+	//font-variant: small-caps;
+	//text-decoration: line-through;    
+	text-transform: capitalize;
+	//letter-spacing: 20px;
+	word-spacing: 30px;	   
+	text-indent: 50px;
+	text-shadow: 2px 2px 4px yellow;
+	//padding: 20px;
+}
+
+h2 {
+	//color: white;
+	background-color: gray;
+	margin-top: 10px;
+	//padding: 20px;
+	padding: 80px 30px 80px 50px;
+	text-align: center;
+}
+#deep{
+	background-color: black;
+	padding: 50px;
+	text-align: center;
+}
+
+a:hover{
+	text-decoration: none;
+	color: green;
+}
+a:active{
+	color:red;
+}
+
+#para{
+	width:800px;
+	height: 800px;
+	border: 5px solid gray;
+	overflow: auto;
+	position: relative;
+	left: 50px;
+	top: 50px;
+}
+img{
+	position: absolute;
+	top: 100px;
+	left: 800px;
+	height: 600px;
+}

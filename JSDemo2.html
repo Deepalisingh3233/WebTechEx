@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Demo</title>
+	<script>
+		//var b = 50; 	//Global Variable
+		function ADD() {
+			var a=10;	//Local Variable
+			var b=40;
+			var x = a + b;
+			document.getElementById('add').innerHTML = "Addition of "+ a +" and "+ b +" = "+x;
+			//document.write("Hello Rizwana");
+			//document.write(typeof(b));
+		}
+		function objectDemo() {
+			var obj = {
+				RollNo : 15,
+				Name : "Deepali",
+				Marks : 80,
+			}
+			document.getElementById("add").innerHTML = "Details : "+ obj.RollNo + " " +obj.Name+" "+ obj.Marks;
+		}
+		function Comparison() {
+			a = 10;
+			b = "10";
+			if (a !== b) {
+				document.getElementById("add").innerHTML = "If Block";
+			} 
+			else{
+				document.getElementById("add").innerHTML = "Else Block";
+			}
+		}
+	</script>
+</head>
+<body>
+<p id="add"> Answer Wil Display Here... </p>
+<input type="button" value="Add" onclick="objectDemo()">
+<input type="button" value="Comparison" onclick="Comparison()">
+</body>
+</html>

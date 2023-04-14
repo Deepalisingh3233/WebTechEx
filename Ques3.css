@@ -1,0 +1,21 @@
+.outer{
+	border: 4px dashed red;
+	height: 90%;
+	width: 90%;
+	background-color: yellow;
+}
+.middle{
+	margin: 30px 90px 40px 40px;
+	border: 40px solid red;
+	border-width: 40px 50px 60px 30px;
+	height: 70%;
+	background-color: gray; 
+}
+.inner{
+	margin:30px 50px 20px 40px;
+	border: 2px solid black;
+	padding: 100px 200px 0px 15px;
+	height: 200px;
+	width: 60%;
+	background-color: white;
+}

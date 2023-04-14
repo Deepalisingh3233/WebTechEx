@@ -1,0 +1,141 @@
+<html>
+<head>
+<title>List Demo</title>
+</head>
+<body bgcolor="gray">
+<h1 align="center">Hey Hey Anki......</h1>
+
+<h2>Unordered List</h2>
+<ul style="list-style-type:square">
+<li>Deepali Singh</li>
+<li>Ankit Gupta</li>
+<li>Ritesh Singh</li>
+<li>Subrat Gupta</li>
+<li>Kamini Bajpai</li>
+<li>Vineet Sharma</li>
+<li>Shivam Singh</li>
+</ul>
+
+<h2>Ordered List</h2>
+<ol type="i" Start="1">
+<li>Deepali Singh</li>
+<li>Ankit Gupta</li>
+<li>Ritesh Singh</li>
+<li>Subrat Gupta</li>
+<li>Kamini Bajpai</li>
+<li>Vineet Sharma</li>
+<li>Shivam Singh</li>
+</ol>
+
+<h2>Definition Tag</h2>
+<dl>
+<dt>Ankii...</dt>
+<dd>Ankii stands for Ankit Gupta. </dd>
+</dl>
+
+<h2>Anchor Tag</h2>
+<a href="Anki.jpeg">
+<img src="Anki.jpeg" width="100" length="100"/>
+</a>
+
+<h2>Table</h2>
+<table border="7" width="500">
+<tr width = "50">
+<th>Roll No</th>
+<th> Name </th>
+<th> Course </th>
+</tr>
+<tr>
+<td> 06 </td>
+<td> Ankit Gupta </td>
+<td> MCA </td>
+</tr>
+<tr>
+<td> 15 </td>
+<td> Deepali Singh </td>
+<td> MCA </td>
+</tr>
+<tr>
+<td> 45 </td>
+<td> Ritesh Singh </td>
+<td> MCA </td>
+</tr>
+
+</table>
+
+<h2>Form</h2>
+<form>
+<label>Name : </label><input type="Text" name="Name" value="username"><br><br>
+<label>Email : </label><input type="email" name="email" value="email id"><br><br>
+<label>Text-area :</label> <textarea rows="3" col="1"> Address </textarea><br><br>
+<label> Gender : </label> <br><br>
+<input type="radio" name ="gender" value ="Female"> FEMALE
+<input type="radio" name ="gender" value ="Male"> MALE <br><br>
+
+<label> Course : </label> <br><br>
+<input type="radio" name ="course" value ="MCA"> MCA
+<input type="radio" name ="course" value ="BCA"> BCA
+<input type="radio" name ="course" value ="BBA"> BBA
+<input type="radio" name ="course" value ="MBA"> MBA <br><br>
+
+<label> Subjects :</label><br><br>
+<input type="checkbox" name="Software Engineering" value ="Software Engineering">Software Engineering
+<input type="checkbox" name="Cloud Computing" value ="Cloud Computing">Cloud Computing<br><br>
+<input type="checkbox" name="Artificial Intelligence" value ="Artificial Intelligence">Artificial Intelligence
+<input type="checkbox" name="Web Technology" value ="Web Technology">Web Technology <br><br>
+
+<label> City : </label> <br><br>
+<select name="city" > /*multiple/ disabled*/
+<option value=""> --select-- </option>
+<option value="kanpur"> Kanpur </option>
+<option value="unnao"> Unnao </option> /* selected*/
+<option value="shuklaganj"> Shuklaganj </option>
+<option value="lucknow"> Lucknow </option>
+</select> <br><br>
+
+<input type="button"  name="submit" value="Submit">
+<input type="reset"  name="reset" value="Reset">
+</form>
+
+<h2> Advance Functioning of Table Tag </h2>
+<table border="3" width="500" >
+<tr height="50">
+<th>Column 1 </th>
+<th colspan="2">column 2 &  Column 3 </th>
+</tr>
+<tr height="50">
+<td colspan="2">  </td>
+
+<td> </td>
+</tr>
+
+</table>
+
+<h2>Option Grouping</h2>
+<select>
+<option value=""> --Select-- </option>
+<optgroup label = "Friuts">
+<option value="apple"> Apple </option>
+<option value="mango"> Mango </option>
+</optgroup>
+
+<optgroup label = "Vegetables">
+<option value="Patato"> Patato </option>
+<option value="Tomato"> Tomato </option>
+
+</optgroup>
+
+</select>
+<h2> Datalist Tag </h2>
+
+<input list="browsers">
+<datalist id ="browsers">
+<option value="Internet Explorer">
+<option value="Chrome">
+<option value="Firefox">
+<option value="Opera">
+<option value="Safari">
+</datalist>
+
+</body>
+</html>
